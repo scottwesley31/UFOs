@@ -6,11 +6,22 @@ var tbody = d3.select("tbody");
 
 // Function that will build a table from the data.js file
 function buildTable(data) {
-    // clear any data to start with blank table
-    tbody.html("");
+        // clear any data to start with blank table, clear out any existing data
+        tbody.html("");
+
+    // Iterate through the data.js file array, loop through each object in the data
+    // and append a row and cells for each value in the row
+    data.forEach((dataRow) => {
+        // Append a row to the table body
+        let row = tbody.append("tr");
+        // Loop through each dataRow argument, loop through each field in the dataRow and add
+        // each value as a table cell (td)
+        Object.values(dataRow).forEach((val) => {
+            // Append each value of the object to a cell in the table
+            let cell = row.append("td");
+            // Attach value to the cell
+            cell.text(val);
+            }
+        );
+    });
 }
-
-// Iterate through the data.js file array
-data.forEach((dataRow) => {
-
-});
