@@ -25,3 +25,24 @@ function buildTable(data) {
         );
     });
 }
+
+// Function to handle user click input and table filtering
+function handleClick() {
+    // Search for datetime HTML tags and store the value in date variable
+    // Grab the datetime value from the filter
+    let date = d3.select("#datetime").property("value");
+    // Create a default filter (the original table)
+    let filteredData = tableData;
+    // Add date filter functionality
+    // Check to see if a date was entered and filter the
+    // data using that date
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+    // Build the table using this filteredData
+    // Rebuild the table using the filtered data
+    // @NOTE: If no date was entered, then filteredData will just be the original table
+    buildTable(filteredData);
+};
+
+// 
