@@ -43,6 +43,10 @@ function handleClick() {
     // Rebuild the table using the filtered data
     // @NOTE: If no date was entered, then filteredData will just be the original table
     buildTable(filteredData);
-};
+}
 
-// 
+// Have D3 listen for "click" event
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Display the original table when the webpage loads
+buildTable(tableData);
