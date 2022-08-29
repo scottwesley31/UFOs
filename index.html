@@ -15,18 +15,18 @@
     <!--Link to style.css file stylesheet-->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <!--"wrapper" class helps group elements and specifies styling in stylesheet-->
     <div class="wrapper">
         <!--Navigation bar-->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <!--Reset webpage after filter applied to table; "navbar-brand" is for aesthetics-->
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
     <!--Add "jumbotron" section; has automated text enhancements-->
     <div class="jumbotron">
-        <h1>The Truth Is Out There</h1>
+        <h1 class="display-4">The Truth Is Out There</h1>
     </div>
     <!--"container-fluid" spans the width of the entire viewport-->
     <div class="container-fluid">
@@ -46,17 +46,17 @@
         <div class="row">
             <div class="col-md-3">
                 <!--Add user form; where the user will filter search-->
-                <form>
+                <form class="bg-dark">
                     <p>Filter Search</p>
-                    <ul class="list-group">
-                        <li class="list-group-item">
+                    <ul class="list-group bg-dark">
+                        <li class="list-group-item bg-dark">
                             <!--Example and section for user to input date; searches for js datetime-->
                             <label for="date">Enter Date</label>
                             <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
-                        <li class="list-group-item">
+                        <li class="list-group-item bg-dark">
                             <!--Button to filter table-->
-                            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
                         </li>
                     </ul>
                 </form>
@@ -80,5 +80,11 @@
             </div>
         </div>
     </div>
+    <!--D3.js library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <!--data.js file-->
+    <script src="static/js/data.js"></script>
+    <!--app.js file-->
+    <script src="static/js/app.js"></script>
 </body>
 </html>
