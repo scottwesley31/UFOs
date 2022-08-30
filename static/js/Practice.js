@@ -73,3 +73,11 @@ let numbers = [1,2,3,4,5,6];
 numbers.forEach(function (element) {
     console.log(element**2);
 })
+
+// To run index.html file from anaconda prompt:
+// Open anaconda prompt in PythonData
+// Navigate to folder with index.html file in it
+// type python -m http.server
+// It will tell you which port it is serving on in local host
+    // Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+// Open browser and type localhost:8000
