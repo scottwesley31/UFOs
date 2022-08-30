@@ -67,3 +67,9 @@ for (var i = 0; i < vegetables.length; i++) {
 for (var i = 0; i < 5; i++) {
     console.log("I am " + i);
 }
+
+// Using forEach on an array
+let numbers = [1,2,3,4,5,6];
+numbers.forEach(function (element) {
+    console.log(element**2);
+})
