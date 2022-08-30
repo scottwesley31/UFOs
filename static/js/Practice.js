@@ -81,3 +81,4 @@ numbers.forEach(function (element) {
 // It will tell you which port it is serving on in local host
     // Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 // Open browser and type localhost:8000
+// To close the server in anaconda prompt type ctrl + C
