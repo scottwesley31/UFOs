@@ -34,6 +34,10 @@ Here is a screen shot of this section of code:
 ### How to Perform Search
 After navigating to the webpage (`index.html`) the original table displays at the bottom of the page. Notice that the filter bars have placeholder text within them as examples of what the user can type in the field.
 
+Webpage - Top Half
+![webpage_1](https://user-images.githubusercontent.com/107309793/187810221-6f9bccbd-ee97-4d4c-9f42-919226f82ff2.png)
+
+Webpage - Lower Half
 ![before_search](https://user-images.githubusercontent.com/107309793/187808205-161b1a13-5987-4b69-97ff-7578ced43712.png)
 
 Once the user types in one of the fields and clicks anywhere out of this filter bar, the table will automatically store this information and rebuild accordingly. "ca" was typed in the state field as an example in this screenshot:
@@ -52,5 +56,5 @@ The other fields can be utilized in whatever order to filter the table further.
 One major drawback of the webpage is that the user has to skim the original table to find terms that they can filter with in their appropriate fields. Because the user has the ability to type anything they want into the filter bars, it's possible for them to input text that returns an empty table which is unhelpful for the functionality of the webpage overall. This could be addressed by changing the fields into dropdown menus instead.
 
 ### Two Additional Recommendations for Further Development
-1) As mentioned above, dropdown menus for each filter option would be much more appropriate for this webpage. This would ensure that no matter what the user selects, the table will display filtered data rather than an empty table. It restricts the options that the user has for searching for information but it is much more effecient than having them try random inputs or scroll the length of the table to figure out appropriate inputs.
-2) The `data.js` file needs to be cleaned. Some of the data appears corrupted, as is seen in the last row of the "ca" search screenshot above which reads, "Three red lights over the San Diego area - IT&#39S A HOAX YET AGAIN&#33&#33". This comes across as less credible data which takes away from the overall function of this webpage; to make users consider if UFO sightings are real.
+1) As mentioned above, **dropdown menus** for each filter option would be much more appropriate for this webpage. This would ensure that no matter what the user selects, the table will display filtered data rather than an empty table. It restricts the options that the user has for searching for information but it is much more effecient than having them try random inputs or scroll the length of the table to figure out appropriate inputs.
+2) The `data.js` **file needs to be cleaned**. Some of the data appears corrupted, as is seen in the last row of the "ca" search screenshot above which reads, "Three red lights over the San Diego area - IT&#39S A HOAX YET AGAIN&#33&#33". This comes across as less credible data which takes away from the overall function of this webpage; to make users consider if UFO sightings are real.
