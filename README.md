@@ -34,10 +34,10 @@ Here is a screen shot of this section of code:
 ### How to Perform Search
 After navigating to the webpage (`index.html`) the original table displays at the bottom of the page. Notice that the filter bars have placeholder text within them as examples of what the user can type in the field.
 
-Webpage - Top Half
+**Webpage - Top Half**
 ![webpage_1](https://user-images.githubusercontent.com/107309793/187810221-6f9bccbd-ee97-4d4c-9f42-919226f82ff2.png)
 
-Webpage - Lower Half
+**Webpage - Lower Half**
 ![before_search](https://user-images.githubusercontent.com/107309793/187808205-161b1a13-5987-4b69-97ff-7578ced43712.png)
 
 Once the user types in one of the fields and clicks anywhere out of this filter bar, the table will automatically store this information and rebuild accordingly. "ca" was typed in the state field as an example in this screenshot:
