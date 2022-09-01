@@ -2,7 +2,7 @@
 Module 11
 
 ## Overview of Project
-Dana, a data journalist from Oregon who is interested in UFOs, has a JavaScript file full of UFO sighting data (date, location, sighting duration, sighting description, etc.) She has a goal for visualizing this data on a webpage which displays all of the UFO data in a table with a user-filtering functionality. Using HTML, JavaScript, and CSS she put together a website that can filter the data for date only.
+Dana, a data journalist from Oregon who is interested in UFOs, has a JavaScript file full of UFO sighting data (date, location, sighting duration, sighting description, etc.) She has a goal for visualizing this data on a webpage which displays all of the UFO data in a table with user-filtering functionality. Using HTML, JavaScript, and CSS she put together a website that can filter the data for date only.
 
 ### Purpose
 The purpose of this project was to pick up where Dana left off and to further develop the search/filter functionality of the webpage to include filtering by city, state, country, and shape in addition to date. Following refactoring of JavaScript and HTML files, the webpage allows for users to filter for multiple criteria at the same time.
@@ -31,7 +31,7 @@ Here is a screen shot of this section of code:
 
 ![filterTable_function](https://user-images.githubusercontent.com/107309793/187807617-5d39a7c1-90a8-4a27-b328-106d0a0d297d.png)
 
-### How to perform search
+### How to Perform Search
 After navigating to the webpage (`index.html`) the original table displays at the bottom of the page. Notice that the filter bars have placeholder text within them as examples of what the user can type in the field.
 
 ![before_search](https://user-images.githubusercontent.com/107309793/187808205-161b1a13-5987-4b69-97ff-7578ced43712.png)
@@ -48,9 +48,9 @@ The other fields can be utilized in whatever order to filter the table further.
 
 ## Summary
 
-### One drawback of webpage
+### One Drawback of Webpage
 One major drawback of the webpage is that the user has to skim the original table to find terms that they can filter with in their appropriate fields. Because the user has the ability to type anything they want into the filter bars, it's possible for them to input text that returns an empty table which is unhelpful for the functionality of the webpage overall. This could be addressed by changing the fields into dropdown menus instead.
 
-### Two additional recommendations for further development
+### Two Additional Recommendations for Further Development
 1) As mentioned above, dropdown menus for each filter option would be much more appropriate for this webpage. This would ensure that no matter what the user selects, the table will display filtered data rather than an empty table. It restricts the options that the user has for searching for information but it is much more effecient than having them try random inputs or scroll the length of the table to figure out appropriate inputs.
 2) The `data.js` file needs to be cleaned. Some of the data appears corrupted, as is seen in the last row of the "ca" search screenshot above which reads, "Three red lights over the San Diego area - IT&#39S A HOAX YET AGAIN&#33&#33". This comes across as less credible data which takes away from the overall function of this webpage; to make users consider if UFO sightings are real.
