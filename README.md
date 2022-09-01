@@ -47,5 +47,10 @@ A subsequent an additional filter can be added to the newly filtered table by ty
 The other fields can be utilized in whatever order to filter the table further.
 
 ## Summary
+
 ### One drawback of webpage
+One major drawback of the webpage is that the user has to skim the original table to find terms that they can filter with in their appropriate fields. Because the user has the ability to type anything they want into the filter bars, it's possible for them to input text that returns an empty table which is unhelpful for the functionality of the webpage overall. This could be addressed by changing the fields into dropdown menus instead.
+
 ### Two additional recommendations for further development
+1) As mentioned above, dropdown menus for each filter option would be much more appropriate for this webpage. This would ensure that no matter what the user selects, the table will display filtered data rather than an empty table. It restricts the options that the user has for searching for information but it is much more effecient than having them try random inputs or scroll the length of the table to figure out appropriate inputs.
+2) The `data.js` file needs to be cleaned. Some of the data appears corrupted, as is seen in the last row of the "ca" search screenshot above which reads, "Three red lights over the San Diego area - IT&#39S A HOAX YET AGAIN&#33&#33". This comes across as less credible data which takes away from the overall function of this webpage; to make users consider if UFO sightings are real.
